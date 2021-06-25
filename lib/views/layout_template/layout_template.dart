@@ -18,6 +18,7 @@ class LayoutTemplate extends StatelessWidget {
               : NavigationDrawer(sizingInformation),
           backgroundColor: Colors.white,
           body: CenteredView(
+            sizingInformation,
             child: Column(
               children: <Widget>[
                 NavigationBar(sizingInformation),

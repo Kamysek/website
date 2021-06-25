@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Vision-based Navigation",
+        "description": "Code of practical course 'Vision-based Navigation'",
+        "category": "github",
+        "color": "white",
+        "url": "https://github.com/Kamysek/visnav",
+        "imageUrl": "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
+    },
+    {
+        "title": "Deep Local Shapes",
+        "description": "Implementation of the paper: 'Deep Local Shapes: Learning Local SDF Priors for Detailed 3D Reconstruction'",
+        "category": "github",
+        "color": "white",
+        "url": "https://github.com/Kamysek/DeepLocalShapes",
+        "imageUrl": "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
+    },
+    {
+        "title": "Tracking and Detection",
+        "description": "Code of practical course 'Tracking and Detection in Computer Vision'",
+        "category": "github",
+        "color": "white",
+        "url": "https://github.com/Kamysek/trackinganddetection",
+        "imageUrl": "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
+    },
+    {
+        "title": "Clinical Application Project",
+        "description": "Code of our clinical application project",
+        "category": "github",
+        "color": "white",
+        "url": "https://github.com/Kamysek/kap",
+        "imageUrl": "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
+    },
+    {
+        "title": "Personal Website",
+        "description": "Code of my personal website",
+        "category": "github",
+        "color": "white",
+        "url": "https://github.com/Kamysek/website",
+        "imageUrl": "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
+    }
+]

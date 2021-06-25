@@ -21,7 +21,10 @@ class HomeContentMobile extends StatelessWidget {
             onTap: () {
               html.window.open(linkedInUrl, 'new tab');
             },
-            child: CallToAction('Contact Me!')),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: CallToAction('Contact Me!'),
+            )),
       ],
     );
   }

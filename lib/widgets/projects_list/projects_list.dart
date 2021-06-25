@@ -1,34 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:stacked/stacked.dart';
+import 'package:provider/provider.dart';
+import 'package:responsive_builder/responsive_builder.dart';
 import 'package:website/datamodels/project_item_model.dart';
-import 'package:website/viewmodels/project/project_list_view_model.dart';
-import 'dart:html' as html;
-import 'project_item.dart';
+import 'package:website/widgets/projects_list/projects_list_desktop.dart';
+import 'package:website/widgets/projects_list/projects_list_mobile.dart';
 
 class ProjectsList extends StatelessWidget {
   final List<ProjectItemModel> projects;
-  ProjectsList({this.projects});
+  const ProjectsList({Key key, this.projects}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelBuilder<ProjectListViewModel>.reactive(
-      viewModelBuilder: () => ProjectListViewModel(),
-      builder: (context, model, child) => Wrap(
-        spacing: 30,
-        runSpacing: 30,
-        children: <Widget>[
-          ...projects
-              .asMap()
-              .map((index, project) => MapEntry(
-                    index,
-                    GestureDetector(
-                      child: ProjectItem(model: project),
-                      onTap: () => html.window.open(project.url, 'new tab') //model.navigateToProject(index),
-                    ),
-                  ))
-              .values
-              .toList()
-        ],
+    return Provider.value(
+      value: projects,
+      child: ScreenTypeLayout(
+        desktop: ProjectsListDesktop(),
+        mobile: ProjectsListMobile(),
       ),
     );
   }

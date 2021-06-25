@@ -19,8 +19,8 @@ class PublicationItem extends StatelessWidget {
       ),
       elevation: 10,
       child: SizedBox(
-        width: 360,
-        height: 320,
+        width: 300,
+        height: 300,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -35,7 +35,7 @@ class PublicationItem extends StatelessWidget {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontWeight: FontWeight.w700,
-                  fontSize: 26,
+                  fontSize: 23,
                 ),
                 softWrap: true,
               ),

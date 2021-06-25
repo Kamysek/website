@@ -15,10 +15,11 @@ class ProjectAndPublicationDetailsMobile extends ViewModelWidget<ProjectAndPubli
             style: titleTextStyle(sizingInformation.deviceScreenType),
           ),
           SizedBox(
-            height: 50,
+            height: 40,
           ),
           Text(
             details.description,
+            textAlign: TextAlign.center,
             style: descriptionTextStyle(sizingInformation.deviceScreenType),
           ),
         ],

@@ -19,15 +19,15 @@ class ProjectItem extends StatelessWidget {
       ),
       elevation: 10,
       child: SizedBox(
-        width: 360,
-        height: 320,
+        width: 300,
+        height: 300,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Padding(
-              padding: const EdgeInsets.fromLTRB(25, 15, 25, 0),
+              padding: const EdgeInsets.fromLTRB(30, 15, 30, 0),
               child: SizedBox(
-                height: 180,
+                height: 120,
                 child: Image.network(model.imageUrl, fit: BoxFit.contain,),
               ),
             ),
