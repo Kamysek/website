@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Vision-based Navigation",
+        "description": "Code of practical course 'Vision-based Navigation' (IN2106)",
+        "category": "github",
+        "color": "white",
+        "url": "https://github.com/Kamysek/visnav",
+        "imageUrl": "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
+    },
+    {
+        "title": "Deep Local Shapes",
+        "description": "Implementation of the paper: 'Deep Local Shapes: Learning Local SDF Priors for Detailed 3D Reconstruction'",
+        "category": "github",
+        "color": "white",
+        "url": "https://github.com/Kamysek/DeepLocalShapes",
+        "imageUrl": "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
+    }
+]
