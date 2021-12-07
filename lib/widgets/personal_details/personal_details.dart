@@ -14,7 +14,8 @@ class PersonalDetails extends StatelessWidget {
                 ? TextAlign.left
                 : TextAlign.center;
 
-        var crossAxisAlignment = sizingInformation.deviceScreenType == DeviceScreenType.desktop
+        var crossAxisAlignment =
+            sizingInformation.deviceScreenType == DeviceScreenType.desktop
                 ? CrossAxisAlignment.start
                 : CrossAxisAlignment.center;
 
@@ -33,7 +34,7 @@ class PersonalDetails extends StatelessWidget {
                 height: 30,
               ),
               Text(
-                "I am currently working at Quartett Mobile in Munich. I graduated Technical University of Munich with a bachelor's degree in computer science and am currently pursuing an additional master's degree in computer science as well as a business degree. Get in touch if you want to chat.",
+                "I graduated Technical University of Munich with a bachelor in Computer Science and a bachelor in Management & Technology. Currently, I am pursuing a consecutive Master in Computer Science. Get in touch if you want to chat.",
                 style: descriptionTextStyle(sizingInformation.deviceScreenType),
                 textAlign: textAlignment,
               )
